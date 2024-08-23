@@ -2,7 +2,7 @@
 .homeimg{
     background-image:url(./img/home.jpg);
     background-position:right;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
 }
 .menu{
     text-decoration: none;
@@ -32,9 +32,9 @@
 
 .aboutimg{
     background-image: url(./img/about.jpg);
-    background-size:contain;
     background-repeat: no-repeat;
     background-position: right;
+    background-size: contain;
 }
 .abouth1{
     font-family: 'Work Sans', sans-serif;
