@@ -1,0 +1,28 @@
+.homeimg{
+    background-image:url(./img/home.jpg);
+    background-position:right;
+    background-repeat: no-repeat;   
+}
+.menu{
+    text-decoration: none;
+    color: black;
+    font-size:large;
+    display:block;
+    margin: 20px 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.homeh1{
+    font-size: 50px;
+    display: block;
+    margin-top: 160px;
+    font-family: 'work sans', sans-serif;
+    color: rgb(63, 62, 62);
+}
+.homeh2{
+    font-weight: bold;
+    font-size: 100px; 
+    font-family: 'Raleway', sans-serif;
+    background-color:rgba(100%, 100%, 100%, 0.5);
+    display: block; 
+    margin-top: 200px;
+}

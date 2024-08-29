@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.imagenes{
+    display: flex;
+    background-color:rgba(162,113, 207, 0.691);
+    flex-direction:row;
+    flex-wrap: wrap;
+    display: flex;
+    height: 650px;
+    padding: 15px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+article{
+    background-color: aqua;
+    width: 150px;
+}
+article img{
+    height: 100px;
+}
+.shrek{
+    order: 5;
+    
+}
+.burro{
+    order: 3;
+}
+.fiona{
+    order: 1;
+    align-self: stretch;
+}
+.gato{
+    order: 2;
+    align-self: flex-end;
+    
+}
+.pinocho{
+    order: 4;
+    align-self: flex-start;
+}
