@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <p class="login"> Login | Register </p>
+        <img class="logo" src="./css/images/logo.jpg" alt="logo">
+     <section class="section1">
+            <article class="article1" > Home </article>
+            <article class="article1"> Quienes </article> 
+            <article class="article1"> Servicios </article>
+            <article class="article1"> Portfolio </article>
+            <article class="article1"> Sucursales </article>
+            <article class="article1"> Contacto </article>
+    </section> 
+        <h1>Registrate</h1>
+        <main>
+            <section class="container"></section>
+            <form action="login.html" method="get">
+            <div><label>Nombre:</label></div>
+            <div><input type="text" name="user" value="" required></div>
+            <div><label>Email:</label></div>
+            <input type="email" name="email" value="" required>
+            <label>password</label>
+            <input type="password" name="password" value="">
+            <label>nacionalidad</label>
+            <select name="pais">
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="China">China</option>
+                <option value="Japon">Japon</option>
+                <option value="Estados Unidos">Estados Unidos</option>
+            </select>
+            <label>genero:</label>
+            <label>femenino</label>
+            <input type="radio" name="genero" value="femenino">
+            <label>masculino</label>
+            <input type="radio" name="genero" value="masculino">
+            <label>otro</label>
+            <input type="radio" name="genero" value="otro">
+            <label>hobbies</label>
+            <label>deportes</label>
+            <input type="checkbox" name="hobbies" value="deportes">
+            <label>cine</label>
+            <input type="checkbox" name="hobbies" value="cine">
+            <label>musica</label>
+            <input type="checkbox" name="hobbies" value="musica">
+            <label>leer</label>
+            <input type="checkbox" name="hobbies" value="leer">
+            <label>viajar</label>
+            <input type="checkbox" name="hobbies" value="viajar">
+            <textarea name="mensaje">Contanos sobre vos!</textarea>
+            <button type="submit">enviar</button>
+            <button type="reset">resetear</button>
+            <label>Terminos y condiciones</label>
+            <label>aceptar</label>
+            <input type="checkbox" name="Terminos y condiciones" value="aceptar" checked>
+            <label>rechazar</label>
+            <input type="checkbox" name="Terminos y condiciones" value="rechazar">
+
+
+
+            </form>
+        </main>
+    </body>
+</html>
