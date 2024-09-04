@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
-        <p class="login"> Login | Register </p>
+        <p class="login"> <a href="./login.html">Login </a> | <a href="./registro.html"> Register</a></p>
         <img class="logo" src="./css/images/logo.jpg" alt="logo">
      <section class="section1">
             <article class="article1" > Home </article>
@@ -18,29 +18,29 @@
         <h1>Registrate</h1>
         <main>
             <section class="container"></section>
-            <form action="login.html" method="get">
-            <div><label>Nombre:</label></div>
+            <form class="fregistro" action="login.html" method="get">
+            <div class="nom_reg"><label>Nombre:</label></div>
             <div><input type="text" name="user" value="" required></div>
-            <div><label>Email:</label></div>
-            <input type="email" name="email" value="" required>
-            <label>password</label>
-            <input type="password" name="password" value="">
-            <label>nacionalidad</label>
-            <select name="pais">
+            <div class="ema_reg"><label>Email:</label></div>
+            <div><input type="email" name="email" value="" required></div>
+            <div class="pas_reg"><label>password</label></div>
+            <div><input type="password" name="password" value=""></div>
+            <div><h3><label>Pais de nacimiento</label></h3></div>
+            <div><select name="pais"></div>
                 <option value="Argentina">Argentina</option>
                 <option value="Brasil">Brasil</option>
                 <option value="China">China</option>
                 <option value="Japon">Japon</option>
                 <option value="Estados Unidos">Estados Unidos</option>
             </select>
-            <label>genero:</label>
-            <label>femenino</label>
+            <div><h3><label>Genero</label></h3></div>
+            <div><label>femenino</label>
             <input type="radio" name="genero" value="femenino">
             <label>masculino</label>
             <input type="radio" name="genero" value="masculino">
             <label>otro</label>
-            <input type="radio" name="genero" value="otro">
-            <label>hobbies</label>
+            <input type="radio" name="genero" value="otro"></div>
+            <div><h3><label>Hobbies</label></h3></div>
             <label>deportes</label>
             <input type="checkbox" name="hobbies" value="deportes">
             <label>cine</label>
@@ -51,17 +51,12 @@
             <input type="checkbox" name="hobbies" value="leer">
             <label>viajar</label>
             <input type="checkbox" name="hobbies" value="viajar">
-            <textarea name="mensaje">Contanos sobre vos!</textarea>
-            <button type="submit">enviar</button>
-            <button type="reset">resetear</button>
-            <label>Terminos y condiciones</label>
-            <label>aceptar</label>
-            <input type="checkbox" name="Terminos y condiciones" value="aceptar" checked>
-            <label>rechazar</label>
-            <input type="checkbox" name="Terminos y condiciones" value="rechazar">
-
-
-
+            <h3>Dejanos un comentario</h3>
+            <div class="blank"><textarea name="mensaje"></textarea></div>
+            <div><input type="checkbox" name="Terminos y condiciones" value="aceptar" checked>
+            <label>Acepto los Terminos y condiciones</label></div>
+            <div><button class="enviar" type="submit">enviar</button>
+            <button class="reset" type="reset">resetear</button></div>
             </form>
         </main>
     </body>

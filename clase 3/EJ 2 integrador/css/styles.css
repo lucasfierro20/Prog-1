@@ -13,7 +13,11 @@ body{
 .logo{
     display: flex;
     border-radius: 80px;
-    align-items: center;
+    margin: auto;
+}
+a{
+    color: black;
+    text-decoration: none;
 }
 .login{
     display:flex;
@@ -23,26 +27,127 @@ body{
     background-color: gray;
     flex-direction: row;
     display: flex;
-    justify-content: space-around;
-    margin: 0px 5px;
+    margin: 20px 0px;
     padding: 5px 80px;
-}
+    color:white;
+}  
 .banner{
-    margin: 10px 60px;
-    width: 1300px;
+    margin: 10px 95px;
+    width: 90%;
 }
 .section2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 90px;
+}
+.section2 img{
+    width: 500px;
 }
 .section2 article{
-    width: 450px;
-    border: 2px solid red;
+    width: 550px;
     margin: 5px;
-    padding: 10px;
-    margin-left: 38px;
+    padding: 20px;
+    margin-left: 10px;
+}
+.ver_mas{
+    background-color: grey;
+    width: 70px;
+    padding: 5px;
+    color: white;
 }
 .container{
     width: 350px;
+}
+footer {
+    background-color: #b30000;
+    padding: 20px;
+}
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+footer nav ul li {
+    margin: 0 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+.fregistro{
+    margin: 0 auto;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 60px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    font-weight:bolder;
+}
+.enviar{
+    margin: 20px;
+    background-color:dodgerblue;
+    color: white;
+    border-radius:10px;
+    padding: 5px 30px;
+}
+.reset{
+    margin: 20px;
+    background-color:dodgerblue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+.blank{
+    margin: 20px 0px;
+}
+.nom_reg{
+    margin: 5px 0px;
+    font-weight: bold;
+}
+.ema_reg{
+    font-weight: bold;
+    margin: 20px 0px 5px 0px;
+}
+.pas_reg{
+    font-weight: bold;
+    margin: 20px 0px 5px 0px;
+}
+
+
+.flogin{
+    margin: 0 auto;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+.ema_log{
+    font-weight: bold;
+
+}
+.pas_log{
+    font-weight: bold;
+
+}
+.rec_log{
+    margin: 25px 0px;
+}
+.ing_log{
+    margin: 30px 0px;
+}
+.ingresar{
+    margin: auto;
+    background-color:dodgerblue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 30px;   
+}
+.flogin div {
+    margin-bottom: 15px;
 }

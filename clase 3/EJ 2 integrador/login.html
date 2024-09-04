@@ -5,17 +5,27 @@
         <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
-        <h1>Login</h1>
+        <p class="login"> <a href="./login.html">Login </a> | <a href="./registro.html"> Register</a></p>
+        <img class="logo" src="./css/images/logo.jpg" alt="logo">
+     <section class="section1">
+            <article class="article1" > Home </article>
+            <article class="article1"> Quienes </article> 
+            <article class="article1"> Servicios </article>
+            <article class="article1"> Portfolio </article>
+            <article class="article1"> Sucursales </article>
+            <article class="article1"> Contacto </article>
+    </section> 
+        <h1>Bienvenido</h1>
         <main>
             <section class="container"></section>
-            <form action="index.html">
-                <label>email</label>
-                <input type="email" name="email" value="" required>
-                <label>password</label>
-                <input type="password" name="password" value="" required>
-                <label>recordame</label>
-                <input type="radio" name="recordame" value="recordame">
-                <button type="submit">Ingresar</button>
+            <form class="flogin" action="index.html">
+                <label class="ema_log">Email</label>
+                <div><input type="email" name="email" value="" required></div>
+                <label class="pas_log">Password</label>
+                <div><input type="password" name="password" value="" required></div>
+                <div class="rec_log"><input type="radio" name="recordame" value="recordame">
+                <label>Recordame</label></div>
+                <div class="ing_log"><button class="ingresar" type="submit">Ingresar</button></div>
             </form>
         </main>
     </body>
