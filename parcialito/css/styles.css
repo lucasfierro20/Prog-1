@@ -1,0 +1,107 @@
+/* General---------------------------------------------------------------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* Home---------------------------------------------------------------------*/
+.bodyhome{
+    background-image:url(./imagenes/la-scaloneta-materiales/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.h1home{
+    font-weight: bolder;
+    color: rgb(42, 202, 255);
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    background-color:rgb(213, 176, 72, 0.4);
+    font-family:"Shadows Into Light";
+}
+.h1home span{
+    color: white;
+    margin: 0 20px;
+}
+.menu{
+    text-decoration: none;
+    color: black;
+    font-family:"Shadows Into Light";
+    font-size:x-large;
+    margin: 15px;
+}
+.logo{
+    filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
+    height: 350px;
+    margin-left: 10px;
+}
+/* Jugadores---------------------------------------------------------------------*/
+.bodyjug{
+    background-color:rgb(240, 240, 240);
+}
+.h1jug{
+    background-color:rgb(213, 176, 72);
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-family:"Shadows Into Light";
+    margin-bottom: 50px;
+    font-size: 50px ;
+}
+.sectionjug{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 1180px;
+    margin: 50px;
+}
+.articlejug{
+    border: rgb(147, 147, 147) 5px solid;
+    padding: 60px;
+    margin-bottom: 20px;
+}
+.fotosjug{
+    width: 200px;
+    filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
+}
+/* Videos---------------------------------------------------------------------*/
+.h1vid{
+    background-color:rgb(213, 176, 72) ;
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-family:"Shadows Into Light";
+    margin-bottom: 50px;
+    font-size: 50px ;
+}
+.section1vid{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family:"Shadows Into Light";
+}
+iframe{
+    margin-right: 50px;
+    height: 315px;
+    width: 450px;
+}
+.section2vid{
+    margin: 50px;
+    font-family:"Shadows Into Light";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section2vid ul{
+    width: 500px;
+}
+h2{
+    margin: 30px;
+}
