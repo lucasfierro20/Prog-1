@@ -16,3 +16,38 @@ let list=[]
     list.push(`${i+1} ${healingIsDifficult[i]}`)
  }
  console.log(list)
+
+ let got = [
+    {
+        nombre: "Jon",
+        apellido: "Snow",
+        edad: 23,
+        ciudad: "Winterfell"
+    },
+    {
+        nombre: "Daenerys",
+        apellido: "Targaryen",
+        edad: 19
+    },
+    {
+        nombre: "Arya",
+        apellido: "Stark",
+        edad: 12,
+        ciudad: "Winterfell"
+    },
+    {
+        nombre: "Tyrion",
+        apellido: "Lannister",
+        edad: 32,
+        ciudad: "Casterly Rock"
+    }
+]
+
+for(let i=0; i < got.length; i++){
+    let persona = got[i];
+    console.log(`"hola" ${persona.nombre} ${persona.apellido} "criatura viajera"`)
+
+    let city = got[i]
+    console.log(`"hola" ${city.nombre} ${city.apellido} "de la ciudad" ${city.ciudad}`)
+}
+

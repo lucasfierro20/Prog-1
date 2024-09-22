@@ -42,4 +42,32 @@ function diaSegunNumero(dias, numero){
 }
 console.log(diaSegunNumero(dias, 3))
 
-//terminar 9 y ejecutando funciones//
+//9//
+
+function calculadora(n1,n2,operacion){
+    let operaciones = {
+        suma: n1 + n2,
+        resta: n1 - n2,
+        multiplicacion:  n1 * n2,
+        division: n1 / n2
+}
+return operaciones[operacion]
+}
+console.log(calculadora(10,5,"multiplicacion"))
+
+
+//ejecutando funciones//
+function anterior(num) {
+    return num = num -1 ;
+}
+console.log(anterior(3))
+
+function triple(num){
+    return num *3;
+}
+console.log(triple(7))
+
+function anteriorDelTriple(num){
+    return (num*3) - 1
+}
+console.log(anteriorDelTriple(7))
