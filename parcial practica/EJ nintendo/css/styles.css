@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.HeaderHome{
+    background-color: rgb(220, 15, 15);
+    flex-wrap: wrap;
+}
+.HeaderHome nav a{
+    text-decoration: none;
+}
+.HeaderHome ul {
+    list-style-type: none;
+}
+
+.menuHome{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+}
+
+.encuestasHome{
+    text-decoration: none;
+    text-align: end;
+}
+
+.logoHome{
+    width: 100px;
+}
+
+.footerHome{
+    background-color: rgb(47, 47, 47);
+}
+
+.fondoHome{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
