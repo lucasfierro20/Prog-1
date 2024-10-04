@@ -4,39 +4,327 @@
     margin: 0;
 }
 
+/*home *******************************/
+.bodyHome{
+    font-family: "Roboto", sans-serif;
+    width: 1480px;
+}
+
 .HeaderHome{
     background-color: rgb(220, 15, 15);
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 .HeaderHome nav a{
     text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin: 15px;
 }
-.HeaderHome ul {
-    list-style-type: none;
+.HeaderHome img{
+    width: 250px;
 }
-
-.menuHome{
+.HeaderHome ul{
+    text-align: right;
     display: flex;
     flex-direction: row;
-    text-align: center;
+}
+.HeaderHome li{
+    margin: 20px;
+    list-style-type: none;
+}
+.HeaderHome li a{
     text-decoration: none;
+    color: red;
+    padding: 25px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    
 }
 
-.encuestasHome{
-    text-decoration: none;
-    text-align: end;
-}
-
-.logoHome{
-    width: 100px;
-}
-
-.footerHome{
-    background-color: rgb(47, 47, 47);
-}
 
 .fondoHome{
     width: 100%;
-    padding: 0px;
-    margin: 0px;
+}
+.h2Home{
+    text-align: center;
+    margin: 40px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    
+}
+.h2Home h2 p{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    margin: 0px 30px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+.footerHome{
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    flex-direction: row;
+}
+
+.footerHome section{
+    color: white;
+    display: flex;
+    margin: 30px;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.footerHome section h3{
+    color: white;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 14px;
+}
+
+/*juegos *******************************/
+.bodyJuegos{
+    font-family: "Roboto", sans-serif;
+    width: 1480px;
+}
+
+.HeaderJuegos{
+    background-color: rgb(220, 15, 15);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.HeaderJuegos nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin: 15px;
+}
+.HeaderJuegos img{
+    width: 250px;
+}
+.HeaderJuegos ul{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+}
+.HeaderJuegos li{
+    margin: 20px;
+    list-style-type: none;
+}
+.HeaderJuegos li a{
+    text-decoration: none;
+    color: red;
+    padding: 25px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bannerJuegos{
+    background-color:  rgb(220, 15, 15);
+    display: flex;
+    flex-direction: row;
+}
+.bannerJuegos img{
+    width: 740px;
+}
+
+.bannerJuegos div{
+    border-radius: 35px;
+    padding: 25px;
+    background-color:rgb(133, 14, 14);
+    margin: 100px;
+    color: white;
+    justify-content: center;
+}
+
+.juegos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.juegos article{
+    margin: 30px 0px 15px 20px;
+}
+
+.juegos img{
+    width: 400px;
+    margin: 20px 30px 0px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.juegos div{
+    margin: 5px 30px;
+    background-color: rgb(220, 15, 15);
+    padding: 20px;
+    color: white;
+}
+
+.juegos p{
+    font-size: 20px;
+}
+
+
+.footerJuegos{
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    flex-direction: row;
+}
+
+.footerJuegos section{
+    color: white;
+    display: flex;
+    margin: 30px;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.footerJuegos section h3{
+    color: white;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 14px;
+}
+
+
+/* media queries*/
+
+@media(max-width: 425px){
+    
+    .bannerJuegos{
+        background-color:  rgb(220, 15, 15);
+        display: flex;
+        flex-direction: column;
+    }
+    .bannerJuegos img{
+        width: 1oo%;
+    }
+
+
+    .bodyJuegos{
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+    }
+    
+    .HeaderJuegos{
+        background-color: rgb(220, 15, 15);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .HeaderJuegos nav a{
+       display: none;
+    }
+    .HeaderJuegos img{
+        width: 250px;
+    }
+    .HeaderJuegos ul{
+        display: none;
+    }
+    .HeaderJuegos li{
+        display: none;
+    }
+    .HeaderJuegos li a{
+        display: none;
+    }
+    .bannerJuegos{
+        background-color:  rgb(220, 15, 15);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bannerJuegos img{
+        width: 400px;
+    }
+    
+    .bannerJuegos div{
+        border-radius: 35px;
+        padding: 25px;
+        background-color:rgb(133, 14, 14);
+        margin: 100px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .juegos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .juegos article{
+        margin: 30px 0px 15px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .juegos img{
+        width: 400px;
+        margin: 20px 30px 0px 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .juegos div{
+        margin: 5px 30px;
+        background-color: rgb(220, 15, 15);
+        padding: 20px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .juegos p{
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .footerJuegos{
+        background-color: rgb(47, 47, 47);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+    
+    .footerJuegos section{
+        color: white;
+        display: flex;
+        margin: 30px;
+        flex-direction: row;
+        font-size: 14px;
+        font-weight: lighter;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footerJuegos section h3{
+        color: white;
+        text-decoration: none;
+        margin: 0px 20px;
+        font-size: 14px;
+        justify-content: center;
+        align-items: center;
+    }
 }
