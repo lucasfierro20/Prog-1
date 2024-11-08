@@ -1,0 +1,19 @@
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+article{
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 4px;
+    margin-bottom: 15px;
+}
+
+
+article img{
+    width: 250px;
+}
